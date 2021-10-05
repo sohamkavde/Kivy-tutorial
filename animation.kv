@@ -1,0 +1,15 @@
+<Mylayout>:
+    orientation:"vertical"
+    Label:
+        id:my_label
+        text:"Click below button"
+        font_size:32
+        color:(1,1,0,1)
+
+    Button:
+        text:"Apply Animation"
+        font_size:32
+        color:(1,1,0,1)
+        size_hint:(.4,.2)
+        pos_hint:{"center_x":.5}
+        on_release:root.animate(self)

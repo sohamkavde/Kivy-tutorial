@@ -1,0 +1,13 @@
+<MysliderforthisApp>:
+    orientation:"vertical"
+    Label:
+        id:labelvalue
+        text:"This is value of slider"
+        font_size:50
+        color:(1,0,0,1)
+    Slider:
+        id:slidervalue
+        min:1
+        max:100
+        step:1
+        on_value:root.sliderfunction(*args)

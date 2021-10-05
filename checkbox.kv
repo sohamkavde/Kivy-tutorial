@@ -1,0 +1,36 @@
+<Defineclass>
+    orientation:"vertical"
+    Label:
+        text:"Select Your Fovourite Activity"
+        font_size:42
+        color:(0,0,1,1)
+
+    GridLayout:
+        cols : 2
+
+        Label:
+            text:"Like"
+            font_size:32
+        CheckBox:
+            group:"Fovourite"
+            on_active:root.activefunction(self.active,"Like")
+
+        Label:
+            text:"Share"
+            font_size:32
+        CheckBox:
+            group:"Fovourite"
+            on_active:root.activefunction(self.active,"Share")
+
+        Label:
+            text:"Subscribe"
+            font_size:32
+        CheckBox:
+            group:"Fovourite"
+            on_active:root.activefunction(self.active,"Subscribe")
+
+    Label:
+        id:answer
+        text:"Your answer will be here"
+        font_size:42
+        color:(0,1,1,1)

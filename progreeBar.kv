@@ -1,0 +1,20 @@
+<Mylayout>:
+    orientation:"vertical"
+    Label:
+        id:my_label
+        text:"20% progress"
+        font_size:32
+        color:(1,0,1,1)
+
+
+    ProgressBar:
+        id:progree
+        min:0
+        max:1
+        value:.20
+
+    Button:
+        text:"Increase Progress"
+        font_size:30
+        color:(1,1,0,1)
+        on_release:root.progress()

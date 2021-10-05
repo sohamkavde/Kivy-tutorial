@@ -1,0 +1,34 @@
+Windowclass:
+    Firstclass:
+    Secondclass:
+
+<Firstclass>:
+    name:"first"
+
+    BoxLayout:
+        orientation:"vertical"
+        Label:
+            text:"first screen label"
+            font_size:29
+
+        Button:
+            text:"Next page"
+            font_size:32
+            on_release:
+                app.root.current = "Second"
+                root.manager.transition.direction = "up"
+<Secondclass>:
+    name:"Second"
+
+    BoxLayout:
+        orientation:"vertical"
+        Label:
+            text:"Second screen label"
+            font_size:29
+
+        Button:
+            text:"Go back to first page"
+            font_size:32
+            on_release:
+                app.root.current = "first"
+                root.manager.transition.direction = "down"

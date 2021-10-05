@@ -1,0 +1,24 @@
+<ImageButtonApp>:
+    orientation:"vertical"
+    Label:
+        id:labelforchange
+        text:"Please subscribe to the channel!"
+        font_size:30
+        color:(1,0,0,1)
+
+
+    Button:
+        #text:"click me"
+        #font_size:32
+        size_hint:(.4,.3)
+        pos_hint:{"center_x":0.5}
+        background_color:(0,0,0,0)
+        on_press:root.press()
+        on_release:root.release()
+
+        Image:
+            id:my_image
+            source:'img/sub1.png'
+            center_x:self.parent.center_x
+            center_y:self.parent.center_y
+            size:200,200

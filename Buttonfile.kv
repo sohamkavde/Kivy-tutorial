@@ -1,0 +1,27 @@
+<Buttonclass>:
+    BoxLayout:
+        orientation:"vertical"
+        spacing:20
+        padding:20
+
+        size:root.width,root.height
+        Button:
+            text:"First Button"
+        RoundedButton:
+            text:"Second Button"
+            pos_hint:{"center_x":.5}
+            size_hint:(1,.2)
+            on_press:print("Button is clicked")
+
+<RoundedButton@Button>:
+    background_color:(0,0,0,0)
+    background_normal:''
+    canvas.before:
+        Color:
+            rgba:(1,1,0,1)
+        RoundedRectangle:
+            size:self.size
+            pos:self.pos
+            radius:[58]
+    color:(1,0,0,1)
+

@@ -1,0 +1,26 @@
+#:import Factory kivy.factory.Factory
+<Mypops@Popup>
+    auto_dismiss:True
+    title:"This is just a pop-pop"
+    size_hint:(.4,.3)
+    pos_hint:{"x":.4,"top":0.9}
+    BoxLayout:
+        orientation:"vertical"
+        Button:
+            text:"close me"
+            on_release:root.dismiss()
+
+        Label:
+            text:"error"
+
+<PopforthisApp>:
+    orientation:"vertical"
+    Label:
+        text:"Hey subscribe the channel !"
+        font_size:32
+        color:(1,0,0,1)
+    Button:
+        text:"Show me Popups"
+        font_size:30
+        on_release:Factory.Mypops().open()
+

@@ -1,0 +1,27 @@
+<LayoutHeader>:
+    canvas.before:
+        Color:
+            rgba: 0, 1, 0, 1
+        Rectangle:
+            # self here refers to the widget i.e FloatLayout
+            pos: self.pos
+            size: self.size
+    BoxLayout:
+        orientation:"vertical"
+        BoxLayout:
+            size_hint:1,None
+            size: 200,70
+            Button:
+                size_hint:None,None
+                size: 50,50
+                text:"A"
+            Button:
+                size_hint:None,None
+                size: 50,50
+                text:"B"
+
+            Button:
+                size_hint:None,None
+                size: 50,50
+                text:"C"
+
