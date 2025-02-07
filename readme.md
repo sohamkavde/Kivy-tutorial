@@ -35,7 +35,7 @@ python main.py
 ```
 
 ## 🎥 Video Tutorial  
-[![Watch the Video](https://img.youtube.com/vi/KPqeiI625ns/0.jpg)](https://www.youtube.com/watch?v=YOUR_VIDEO_ID)
+[![Watch the Video](https://img.youtube.com/vi/KPqeiI625ns/0.jpg)](https://www.youtube.com/watch?v=KPqeiI625ns)
 
 
 📖 Usage Instructions
