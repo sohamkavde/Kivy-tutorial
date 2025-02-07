@@ -1,8 +1,7 @@
 # 📱 Kivy Tutorial
 
 A comprehensive guide to building **cross-platform mobile and desktop applications** using **Kivy** – a Python framework for rapid app development.
-
----
+ 
 
 ## 🚀 Features  
 ✅ Step-by-step tutorials for learning Kivy.  
@@ -40,6 +39,7 @@ python main.py
 
 
 📖 Usage Instructions
+
 Open any tutorial file and run it using Python.
 Modify the UI components and experiment with Kivy widgets.
 --------------------------------------------
@@ -58,10 +58,12 @@ Commit your changes (git commit -m "Added new tutorial").
 Push to your fork and create a Pull Request.
 
 --------------------------------------
+
 🚀 Roadmap / Future Updates\
 ✅ More Kivy UI components.\
 ✅ Advanced animations and interactions.\
 ✅ Mobile app deployment tutorials.
+
 -------------------------------------------
  
 📬 Contact & Social Links
